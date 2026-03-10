@@ -1,32 +1,66 @@
-# Blockchain-enabled tracking of waste streams from source to disposal
+# Blockchain-Enabled Waste Tracking System
+
+A smart city waste management dashboard that tracks waste streams from **source to disposal** using blockchain concepts.
+
+## Live Demo
+
+https://shravyagowda28.github.io/blockchain-waste-tracking/frontend/
 
 ## Project Overview
 
-This project demonstrates how blockchain can be used to track waste from its source to its final disposal or recycling center.
-Each waste record is stored on a blockchain using a smart contract to ensure transparency and tamper-proof tracking.
+This project demonstrates a system for tracking waste from the source through collection, transportation, recycling, and final disposal.
+
+The system records:
+
+* Waste Type
+* Waste Source
+* Collector
+* Destination
+* Waste Status
+* Timestamp
+
+The backend concept uses **blockchain smart contracts** to ensure secure and tamper-proof records.
+
+## Features
+
+* Waste lifecycle tracking (Collected → Transported → Recycled → Disposed)
+* Waste record dashboard
+* Waste ID search
+* Waste statistics panel
+* CSV waste report download
+* Smart city waste monitoring interface
 
 ## Technologies Used
 
-* Solidity
+* HTML
+* CSS
+* JavaScript
+* Solidity (Smart Contract)
 * Ethereum (Remix IDE)
-* Blockchain Smart Contracts
+* GitHub Pages (Deployment)
 
-## Smart Contract
+## System Workflow
 
-The smart contract allows adding and storing waste records such as:
+Waste Source → Waste Collection → Transportation → Recycling / Disposal → Blockchain Record
 
-* Waste type
-* Waste source
-* Collector
-* Destination
+## Repository Structure
 
-## Example Record
+blockchain-waste-tracking
+│
+├── smart-contract
+│ └── WasteTracking.sol
+│
+├── frontend
+│ ├── index.html
+│ └── bg.jpg
 
-Waste Type: Plastic
-Source: Household
-Collector: Collector1
-Destination: Recycling Center
+## Future Improvements
 
-## Purpose
+* Real blockchain integration
+* IoT smart bins
+* GPS waste truck tracking
+* Mobile application
 
-To improve transparency and accountability in waste management systems using blockchain technology.
+## Author
+
+Shravya Gowda
